@@ -40,7 +40,7 @@ ScrollReveal({
     delay:200,
 
 });
-ScrollReveal().reveal('.home-content,heading',{origin:'top'});
-ScrollReveal().reveal('.home-Image,.services-CSSContainerRule,portfolio-BaseAudioContext,.contact form',{origin:'buttom'});
-ScrollReveal().reveal('.home-contact h1,.about-img',{origin:left});
-ScrollReveal().reveal('.home-contact p,about-content',{origin:'right'});
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-image, .services-container, .portfolio-container, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.about-img', { origin: 'left' });
+ScrollReveal().reveal('.about-content', { origin: 'right' });
